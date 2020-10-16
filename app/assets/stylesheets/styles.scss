@@ -1,0 +1,63 @@
+.alert {
+    background: #ffb1c2;
+    color:  #ab0202;
+    border-radius: 5px;
+    padding:10px 20px;
+    display: flow-root;
+    p {
+        float: left;
+    }
+
+    .close {
+        float: right;
+        cursor: pointer;
+    }
+
+}
+
+.collapse-content {
+    display: none;
+}
+
+.btn-collapse {
+    background: rgb(51, 53, 59);
+    color: white;
+    padding:10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    
+    &:hover {
+        background: #ddd;
+        color: black;
+    }
+}
+
+.accordion {
+
+    border: 1px solid darkgray;
+
+    .btn-accordion {
+        background: rgb(51, 53, 59);
+        color: white;
+        padding:10px 20px;
+        width: 100%;
+        border: none;
+        cursor: pointer;
+        text-align: justify;
+        
+        &:hover {
+            background: #ddd;
+            color: black;
+        }
+    }
+
+    .accordion-content {
+        padding: 10px  20px;
+        display: none;
+    }
+
+}
+
+
+
